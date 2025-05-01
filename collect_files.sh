@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +x "$0"
+chmod +x "collect_files.sh"
 
 input="$1"
 output="$2"
