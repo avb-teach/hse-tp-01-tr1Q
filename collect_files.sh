@@ -1,7 +1,6 @@
 #!/bin/bash
-chmod +x "$0"
 
-input_dir="$1"
-output_dir="$2"
+input="$1"
+output="$2"
 
-find "$input_dir" -type f -exec cp {} "$output_dir" \;
+find "$input" -type f -exec cp {} "$output" \;
