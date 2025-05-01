@@ -1,4 +1,5 @@
 #!/bin/bash
+chmod +x "$0"
 
 input="$1"
 output="$2"
